@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec2468ee-c8ff-401d-b9e9-cab9a126a592" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/proftelran/org/homework2/ButtonPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/proftelran/org/homework2/HomeWork2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/proftelran/org/homework2/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/proftelran/org/homework2/RadioPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/proftelran/org/homework2/SmartPhone.java" afterDir="false" />
+    <list default="true" id="ec2468ee-c8ff-401d-b9e9-cab9a126a592" name="Changes" comment="HomeWork2.java">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backendpro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backendpro.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/proftelran/org/homework/HomeWork1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proftelran/org/homework/HomeWork1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/proftelran/org/homework/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proftelran/org/homework/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/proftelran/org/homework/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proftelran/org/homework/Phone.java" afterDir="false" />
@@ -44,7 +39,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HomeWork2">
+  <component name="RunManager" selected="Application.HomeWork1">
     <configuration name="HomeWork1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.proftelran.org.homework.HomeWork1" />
       <module name="backendpro" />
@@ -73,8 +68,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HomeWork2" />
         <item itemvalue="Application.HomeWork1" />
+        <item itemvalue="Application.HomeWork2" />
       </list>
     </recent_temporary>
   </component>
@@ -87,6 +82,15 @@
       <option name="presentableId" value="Default" />
       <updated>1697626383320</updated>
     </task>
+    <task id="LOCAL-00001" summary="HomeWork2.java">
+      <option name="closed" value="true" />
+      <created>1698101461395</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698101461395</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,5 +103,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HomeWork2.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork2.java" />
   </component>
 </project>
