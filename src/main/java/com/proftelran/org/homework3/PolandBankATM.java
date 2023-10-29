@@ -15,8 +15,8 @@ public class PolandBankATM extends ATM{
     }
 
     @Override
-    public void withdrawCash(int amountATM) {
-        super.withdrawCash(amountATM);
+    public int withdrawCash(int amountATM) {
+        return super.withdrawCash(amountATM);
     }
 
     @Override

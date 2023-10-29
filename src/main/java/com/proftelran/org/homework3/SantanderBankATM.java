@@ -1,10 +1,10 @@
 package com.proftelran.org.homework3;
 
-public class SantanderBankATM extends ATM implements Converter, CashWithdraw{
+public class SantanderBankATM extends ATM implements Converter{
 
     private String nameATM;
 
-    private int amountATM;
+    private static int amountATM;
 
     private String currency;
 
@@ -14,7 +14,7 @@ public class SantanderBankATM extends ATM implements Converter, CashWithdraw{
         this.currency = currency;
     }
 
-    public int getAmountATM() {
+    public static int getAmountATM() {
         return amountATM;
     }
 
@@ -22,8 +22,9 @@ public class SantanderBankATM extends ATM implements Converter, CashWithdraw{
         this.amountATM = amountATM;
     }
 
-    public void withdrawCash(int amountATM) {
-        super.withdrawCash(amountATM);
+    @Override
+    public int withdrawCash(int amountATM) {
+        return this.amountATM + getAmountATM()+super.withdrawCash(amountATM);
     }
 
     @Override
@@ -43,13 +44,10 @@ public class SantanderBankATM extends ATM implements Converter, CashWithdraw{
 
     @Override
     public void converter() {
-
     }
 
 
-    @Override
-    public void cashWithdraw() {
-        int amountATM1 = this.amountATM;
+
 
     }
-}
+
